@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #000;
+  font-family: Times New Roman, Times, serif;
+}
+
+.console-container {
+  flex-direction: column;
+  display: flex;
+}
+
+.console {
+  margin-top: 3rem;
+  padding: 1.5rem;
+}
+
+.console-input {
+  width: 100%;
+  color: #fff;
+  background: #ffffff0d;
+  outline: none;
+  padding: 1.5rem;
+}
+
+.console-input-log, .console-output-log {
+  color: #fff;
+  padding: .5rem 1rem;
+}
+
+.console-output-log {
+  color: orange;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=index.9e4c6fd2.css.map */

@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.console-container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.console{
+    padding: 1.5rem;
+    margin-top: 3rem;
+}
+
+.console-input{
+    width: 100%;
+    padding: 1.5rem;
+    outline: none;
+    color: white;
+    background: black;
+}
+
+.console-input-log,
+.console-output-log {
+  padding: 0.5rem 1rem;
+  color: black;
+
+}
+.console-input-log{
+    background: lightgray;
+}
+
+.console-output-log {
+  color: black;
+  font-weight: bold;
+  background: lightpink;
+}
